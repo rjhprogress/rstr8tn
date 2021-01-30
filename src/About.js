@@ -44,11 +44,6 @@ function About(){
                                 <p>Visit the artists blog on Spiritual Growth and Self Care for the LGBTQ+ community
                                   and Allies at: <a href="https://restoreyourtruth.com">restoreyourtruth.com</a>
                                 </p>
-
-                                <div> 
-                                  <a data-scroll href="mailto:rjh@theprogresslab.com" className="w3-bar-item w3-button w3-text-grey w3-hover-black">
-                                  <i className="fas fa-envelope-open-text"></i> Email Rahsh</a>
-                                </div>
                             </div>
   
 

@@ -14,11 +14,9 @@ return (
     <div>
         <Navbar />
         <Header />
-        <Gallery />
-        <Categories />
-        <Cart />
         <About />
-        <Members />
+    
+        <Categories />
         <Footer />
     </div>
 
