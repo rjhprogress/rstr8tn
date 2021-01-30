@@ -18,7 +18,7 @@ function About(){
                      </div>
 
 
-                         <h5><i className="fas fa-bullseye"></i> Mission</h5>
+                         <h5><i className="fas fa-globe"></i> Mission</h5>
                             <p>RS T R8 TN Clothing (pronouned Restoration Clothing) is an urban street wear brand showcasing the art of 
                                 Rahsh Horne (born Rasheedah Horne). The pieces are designed to promote, and inspire mental health, and 
                                 emotional healing from trauma through art. Images on apparel are either taken by camera, hand painted, 
@@ -26,26 +26,31 @@ function About(){
                             </p>
                             <p>RS T R8 TN is a call to action for spiritual growth, personal development, and self care; to strengthen 
                                 the individual so that restoring community, unity, and addressing systematic issues of injustice in urban 
-                                communities can be handled successfully. As quoted by Rahsh ...</p>
+                                communities can be handled successfully.</p>
                                 
                                 <q>There can be no peace, without inner peace,<br></br>
                                  no love without self love,<br></br>
                                  no true revolution without personal libration,<br></br>
                                  and no freedom, without balance, and mental health.<br></br>
                                  We must restore the truth within ... that we are enough.<br></br>
-                                 As said by the poet June Jordan, 'We are the ones we have been waiting for.'</q> -Rahsh
+                                 As said by the poet June Jordan, 'We are the ones we have been waiting for.'</q> -Rahsh aka Rocky
    
                                    <p>Visit the artists blog on Spiritual Growth and Self Care for the LGBTQ+ community
                                     and Allies at: <a href="https://restoreyourtruth.com">restoreyourtruth.com</a></p>
+
+                                    <div> 
+                                        <a data-scroll href="mailto:rjh@theprogresslab.com" className="w3-bar-item w3-button w3-text-grey w3-hover-black"><i className="fas fa-envelope-open-text"></i> Email Rahsh</a>
+                                    </div>
     
   
-                                 <img src="img/" style={{width:"100%", maxWidth:1000}} className="w3-margin-top" />
+                                 <img src="" style={{width:"100%", maxWidth:1000}} className="w3-margin-top" />
 
                                     <div className="w3-panel w3-leftbar w3-light-grey">
-                                     <p><i>Quote by designer: "Where shattered pieces build dreams
-                                           so those broken reach the moon."</i></p>
-                                        <p><a href="https://instagram.com/rockyint">-Rah'sh Follow Designer on Instagram</a></p>
-     
+                                     <p><i>"All the<br></br> broken pieces<br></br>you feared might<br></br>shatter you,<br></br>
+                                     will build your <br></br>Rocketship <br></br>to the Moon.<br></br>So, Don't Ever<br></br> Give Up.<br></br> Live long<br></br> and prosper, <br></br>
+                                     Thru and thru!  <br></br><br></br> -Rahsh aka Rocky <i class="far fa-hand-spock"></i>
+                                           </i></p>
+                                       
       
                                     </div><br></br>
 
