@@ -4,7 +4,7 @@ function Gallery(){
 
     return (
         <div>
-            <p>this is the Gallery Section</p>
+                 <img src="" style={{width:"100%", maxWidth:1000}} className="w3-margin-top" />
         </div>
         
     )

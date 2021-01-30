@@ -18,7 +18,9 @@ function About(){
                      </div>
 
 
-                         <h5><i className="fas fa-globe"></i> Mission</h5>
+                        <h5><i className="fas fa-globe"></i> Mission</h5>
+
+                        <div>
                             <p>RS T R8 TN Clothing (pronouned Restoration Clothing) is an urban street wear brand showcasing the art of 
                                 Rahsh Horne (born Rasheedah Horne). The pieces are designed to promote, and inspire mental health, and 
                                 emotional healing from trauma through art. Images on apparel are either taken by camera, hand painted, 
@@ -34,34 +36,47 @@ function About(){
                                  and no freedom, without balance, and mental health.<br></br>
                                  We must restore the truth within ... that we are enough.<br></br>
                                  As said by the poet June Jordan, 'We are the ones we have been waiting for.'</q> -Rahsh aka Rocky
+                        </div>
    
-                                   <p>Visit the artists blog on Spiritual Growth and Self Care for the LGBTQ+ community
-                                    and Allies at: <a href="https://restoreyourtruth.com">restoreyourtruth.com</a></p>
 
-                                    <div> 
-                                        <a data-scroll href="mailto:rjh@theprogresslab.com" className="w3-bar-item w3-button w3-text-grey w3-hover-black"><i className="fas fa-envelope-open-text"></i> Email Rahsh</a>
-                                    </div>
-    
+
+                            <div>
+                                <p>Visit the artists blog on Spiritual Growth and Self Care for the LGBTQ+ community
+                                  and Allies at: <a href="https://restoreyourtruth.com">restoreyourtruth.com</a>
+                                </p>
+
+                                <div> 
+                                  <a data-scroll href="mailto:rjh@theprogresslab.com" className="w3-bar-item w3-button w3-text-grey w3-hover-black">
+                                  <i className="fas fa-envelope-open-text"></i> Email Rahsh</a>
+                                </div>
+                            </div>
   
-                                 <img src="" style={{width:"100%", maxWidth:1000}} className="w3-margin-top" />
+
+                            
 
                                     <div className="w3-panel w3-leftbar w3-light-grey">
-                                     <p><i>"All the<br></br> broken pieces<br></br>you feared might<br></br>shatter you,<br></br>
-                                     will build your <br></br>Rocketship <br></br>to the Moon.<br></br>So, Don't Ever<br></br> Give Up.<br></br> Live long<br></br> and prosper, <br></br>
-                                     Thru and thru!  <br></br><br></br> -Rahsh aka Rocky <i class="far fa-hand-spock"></i>
-                                           </i></p>
-                                       
-      
+                                        <p>
+                                            <i>"All the<br></br> 
+                                            broken pieces<br></br>
+                                            you feared might<br></br>
+                                            shatter you,<br></br>
+                                            will build your <br></br>
+                                            Rocketship <br></br>
+                                            to the Moon.<br></br>
+                                            So, Don't Ever<br></br> 
+                                            Give Up.<br></br> 
+                                            Live long<br></br> 
+                                            and prosper, <br></br>
+                                            Thru and thru!<br></br><br></br> 
+                                            -Rahsh aka Rocky <i class="far fa-hand-spock"></i>
+                                            </i>
+                                        </p>
                                     </div><br></br>
 
                                         <div>
-                                          <img src="img/peaceandlove.jpg" style={{width:"100%", maxWidth:1000}} className="center" />
+                                          <img src="peaceandlove.jpg" style={{width:"100%", maxWidth:1000}} className="center" />
                                           <p>Street Photography Philadelphia, PA</p>
                                         </div>
-
-
-
-
 
 
                 </div>
