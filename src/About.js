@@ -57,24 +57,7 @@ function About(){
 
                             
 
-                                    <div className="w3-panel w3-leftbar w3-light-grey">
-                                        <p>
-                                            <i>"All the<br></br> 
-                                            broken pieces<br></br>
-                                            you feared might<br></br>
-                                            shatter you,<br></br>
-                                            will build your <br></br>
-                                            Rocketship <br></br>
-                                            to the Moon.<br></br>
-                                            So, Don't Ever<br></br> 
-                                            Give Up.<br></br> 
-                                            Live long<br></br> 
-                                            and prosper, <br></br>
-                                            Thru and thru!
-                                             <p>-Rahsh aka Rocky <i class="far fa-hand-spock"></i></p>
-                                            </i>
-                                        </p>
-                                    </div><br></br>
+                                    
 
                                         <div>
                                           <img src={Peaceandlove} width="100%" className="center" alt="Graffiti of a peace, and hearts with tears." />
