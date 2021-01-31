@@ -49,8 +49,8 @@ function About(){
 
 
                             <div>
-                                <p>Visit the artists blog on Spiritual Growth and Self Care for the LGBTQ+ community
-                                  and Allies at: <a href="https://restoreyourtruth.com">restoreyourtruth.com</a>
+                                <p>Visit the artist vlog: Restore Your Truth; The Voice of RS T R8 TN
+                                    at:  <a href="https://restoreyourtruth.com">restoreyourtruth.com</a>
                                 </p>
                             </div>
   
