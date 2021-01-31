@@ -69,7 +69,7 @@ function About(){
                                     </div><br></br>
 
                                         <div>
-                                          <img src="peaceandlove.jpg" style={{width:"100%", maxWidth:1000}} className="center" />
+                                          <img src="./peaceandlove.jpg" style={{width:"100%", maxWidth:1000}} className="center" />
                                           <p>Street Photography Philadelphia, PA</p>
                                         </div>
 
