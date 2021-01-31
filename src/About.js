@@ -1,4 +1,5 @@
 import React from 'react'
+import Peaceandlove from './peaceandlove.jpg'
 
 function About(){
 
@@ -20,6 +21,7 @@ function About(){
 
                         <h5><i className="fas fa-globe"></i> Mission</h5>
 
+
                         <div>
                             <p>RS T R8 TN Clothing (pronouned Restoration Clothing) is an urban street wear brand showcasing the art of 
                                 Rahsh Horne (born Rasheedah Horne). The pieces are designed to promote, and inspire mental health, and 
@@ -29,15 +31,21 @@ function About(){
                             <p>RS T R8 TN is a call to action for spiritual growth, personal development, and self care; to strengthen 
                                 the individual so that restoring community, unity, and addressing systematic issues of injustice in urban 
                                 communities can be handled successfully.</p>
-                                
-                                <q>There can be no peace, without inner peace,<br></br>
-                                 no love without self love,<br></br>
-                                 no true revolution without personal libration,<br></br>
-                                 and no freedom, without balance, and mental health.<br></br>
-                                 We must restore the truth within ... that we are enough.<br></br>
-                                 As said by the poet June Jordan, 'We are the ones we have been waiting for.'</q> -Rahsh aka Rocky
-                        </div>
-   
+                            </div>
+
+
+                            <div className="w3-panel w3-leftbar w3-light-grey">
+                            <p>
+                                <i>"There can be no peace, without inner peace,<br></br>
+                                no love without self love,<br></br>
+                                no true revolution without personal libration,<br></br>
+                                and no freedom, without balance, and mental health.<br></br>
+                                We must restore the truth within ... that we are enough.<br></br>
+                                As said by the poet June Jordan, 'We are the ones we have been waiting for."<br></br>
+                                            
+                                -Rahsh aka Rocky</i></p>
+                            </div><br></br>
+
 
 
                             <div>
@@ -62,15 +70,16 @@ function About(){
                                             Give Up.<br></br> 
                                             Live long<br></br> 
                                             and prosper, <br></br>
-                                            Thru and thru!<br></br><br></br> 
-                                            -Rahsh aka Rocky <i class="far fa-hand-spock"></i>
+                                            Thru and thru!
+                                             <p>-Rahsh aka Rocky <i class="far fa-hand-spock"></i></p>
                                             </i>
                                         </p>
                                     </div><br></br>
 
                                         <div>
-                                          <img src="./peaceandlove.jpg" style={{width:"100%", maxWidth:1000}} className="center" />
+                                          <img src={Peaceandlove} width="100%" className="center" alt="Graffiti of a peace, and hearts with tears." />
                                           <p>Street Photography Philadelphia, PA</p>
+                                         <br></br><br></br>
                                         </div>
 
 

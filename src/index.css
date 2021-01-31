@@ -3,3 +3,10 @@ body, html, p, h1, h2, h3, h4, h5, h6 {
 height: 100%;
 font-family: 'Inconsolata', sans-serif;
 }
+
+q, .Footer, .Navbar {
+    height: 100%;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    }
