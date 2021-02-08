@@ -1,12 +1,31 @@
-
-body, html, p, h1, h2, h3, h4, h5, h6 {
-height: 100%;
-font-family: 'Inconsolata', sans-serif;
+body,
+html,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  height: 100%;
+  font-family: 'Inconsolata', sans-serif;
 }
 
-q, .Footer, .Navbar {
-    height: 100%;
-    font-family: 'Inconsolata', monospace;
-    font-family: 'Karla', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    }
+.bgimg {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.bgimg {
+  background-image: url('https://drive.google.com/uc?id=18LrTF1s5Mbcojc3rkqUbpUdh2bfoaaqO');
+}
+
+q,
+.Footer,
+.Navbar {
+  height: 100%;
+  font-family: 'Inconsolata', monospace;
+  font-family: 'Karla', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}

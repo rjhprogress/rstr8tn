@@ -1,7 +1,7 @@
 import React from 'react'
 import Peaceandlove from './peaceandlove.jpg'
 
-function About(){
+function Mission(){
 
     return (
         <div>
@@ -41,7 +41,7 @@ function About(){
                                 no true revolution without personal libration,<br></br>
                                 and no freedom, without balance, and mental health.<br></br>
                                 We must restore the truth within ... that we are enough.<br></br>
-                                As said by the poet June Jordan, 'We are the ones we have been waiting for."<br></br>
+                                As said by the writer June Jordan, 'We are the ones we have been waiting for."<br></br>
                                             
                                 -Rahsh aka Rocky</i></p>
                             </div><br></br>
@@ -79,4 +79,4 @@ function About(){
 
 }
 
-export default About
+export default Mission

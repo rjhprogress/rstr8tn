@@ -10,7 +10,7 @@ function Header(){
 
                      <header className="w3-center w3-margin-bottom">
                      <br></br><br></br>
-                          <h1><strong>RS T R8 TN</strong> &#8482;</h1>
+                          <h1><strong>RS T R8 TN</strong>&#8482;</h1>
                             <p><small>[ r  e  s  t  o  r  a  t  i  o  n ]</small></p>
                             <br></br>
                     </header>
