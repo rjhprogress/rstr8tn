@@ -6,7 +6,13 @@ import Commit from './Commit'
 import Mission from './Mission'
 import Products from './Products'
 import Membersignup from './Membersignup'
+import Blacklivesmatter from './Blacklivesmatter'
+import Stonewallriots from './Stonewallriots'
+import Freestyle from './Freestyle'
 import {BrowserRouter,Route} from 'react-router-dom'
+
+
+
 
 
 const App = () => {
@@ -20,6 +26,9 @@ return (
         <Route exact path="/mission" component={ Mission } />
         <Route exact path="/products" component={ Products } />
         <Route exact path="/membersignup" component={ Membersignup } />
+        <Route exact path="/blacklivesmatter" component={ Blacklivesmatter } />
+        <Route exact path="/stonewallriots" component={ Stonewallriots } />
+        <Route exact path="/freestyle" component={ Freestyle } />
     </div>
 </BrowserRouter>
 

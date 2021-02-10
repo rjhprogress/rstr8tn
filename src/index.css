@@ -11,14 +11,13 @@ h6 {
   font-family: 'Inconsolata', sans-serif;
 }
 
-.bgimg {
-  min-height: 100%;
-  background-position: center;
-  background-size: cover;
-}
-
-.bgimg {
-  background-image: url('https://drive.google.com/uc?id=18LrTF1s5Mbcojc3rkqUbpUdh2bfoaaqO');
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
 q,

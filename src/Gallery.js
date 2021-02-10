@@ -1,23 +1,47 @@
 import React from 'react'
+import Fist from './fist.jpg'
+import {Link} from 'react-router-dom'
+import Navbar from "./components/Navbar.js"
+import Footer from "./components/Footer.js"
+import './index.css'
 
-function Gallery(){
-    return(
+
+
+const Gallery = () => {
+    return (
 
         <div> 
-            <div className="w3-container">
-                <div className="w3-dropdown-hover ">
+            <Navbar></Navbar>
 
-                 <button className="w3-button" title="Collections"><p>Select Apparel Art Collection</p> <i className="fa fa-caret-down"></i></button>
+
+                <span id="container"></span>
+
+              <section>
+                    <img src={Fist} width="100%" className="center" alt="Multi-color People Power Fists" /> 
+                </section>
+            <div className="hero-image">
+            
+            
+                <div class="hero-text">
+                
+                    <div className="w3-dropdown-hover ">
+                    <button className="w3-button" title="Collections">
+                        <p>Select Collection</p> <i className="fa fa-caret-down"></i></button>
+                    
                     <div className="w3-dropdown-content w3-bar-block">
-                    <a href="#" className="w3-bar-item w3-button"><p>Black Lives Matter</p></a>
-                    <a href="#" className="w3-bar-item w3-button"><p>1969 Stonewall Riots</p></a>
-                    <a href="#" className="w3-bar-item w3-button"><p>Radical Freestyle</p></a>
-                    </div> 
+                    <Link to="/blacklivesmatter" className="w3-bar-item w3-button" alt="Black Lives Matter Collection"><p>Black Lives Matter</p></Link>
+                    <Link to="/stonewallriots" className="w3-bar-item w3-button" alt="1969 Stonewall Riots Collection"><p>1969 Stonewall Riots</p></Link>
+                    <Link to="/freestyle" className="w3-bar-item w3-button" alt="Freestyle Art Collection"><p>Freestyle Art</p></Link>
+                    </div>
+                    </div>
                 </div>
-        
-
 
             </div>
+
+
+            <Footer></Footer>
+
+        
 
         </div>
     )
