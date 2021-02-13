@@ -4,7 +4,7 @@ import Footer from "./components/Footer"
 import './index.css'
 
 
-const Freestyle = () => {
+const Newarrivals = () => {
 
   return (
     <div>
@@ -15,40 +15,38 @@ const Freestyle = () => {
       <br></br><br></br><br></br>
 
       <div className="w3-content w3-display-container">
-        <h2><i class="fas fa-paint-roller"></i> FREESTYLE</h2>
+        <h2>RELEASED 02-2021</h2>
       </div>
       <br></br><br></br><br></br>
 
       <div className="w3-content w3-display-container">
 
 
-        <div className="w3-display-container mySlides">
-          <img src="https://icecube-us-844.icedrive.io/thumbnail?p=HsgOXA7gJwOrPCLav3LVDojbVsGx4lgflbV0II9EZOmszpTrQUt42.k9VcOTgGmjXzy88EHyJHT9LRW.bvSMCGJjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped" style={{ width: 100 }} />
-          <div className="w3-display-bottomright w3-large w3-container w3-padding-12 w3-black">
-            <p>RS T R8 TN &#8482; <em>Long Live Monroe 1220 Black</em>  [Front View] </p>
-          </div>
-        </div>
-
-        <div className="w3-display-container mySlides">
-          <img src="https://icecube-us-842.icedrive.io/download?p=F2OCDfbqsmzCEJvAMqCFn9H.2LW31CEIxGCuItIBXa8KNRt1WwarT7fbN_NL9td5HnZiiAGiA.9HKQtZS7Pu2zpK_CcOhtQScYQ7JzqqyaZfN1r8r90HVh1cC9P3ZHQse64wyiXww.hOPGMAVWzGGYdY5nxeNEXItJWSVUFbBMul6TmeCm.g2u9sAxwIRxhFo9SW8.C2PxZfSl.iY7w11Q--" style={{ width: 100 }} />
-          <div className="w3-display-bottomright w3-large w3-container w3-padding-12 w3-black">
-            <p>RS T R8 TN &#8482; <em>Long Live Monroe 1220 Black</em>  [Back View] </p>
-          </div>
-        </div>
-
+        {/*This is the First New Arrival*/}
         <div className="w3-display-container mySlides">
           <img src="https://icecube-us-sw-841-1.icedrive.io/thumbnail?p=ZEtCj09GiuWMPv4kT9YH6FwvAAmoE.A7Xx2aD9Pr9zrvl0qPC6uXG.YgG6TklZb_7zrtPOlsTkg..gCWaq.4X2JjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped" style={{ width: 100 }} />
-          <div className="w3-display-bottomright w3-large w3-container w3-padding-12 w3-black">
-            <p>RS T R8 TN &#8482; <em>Long Live Monroe 0221 Red</em>  [Front View] </p>
+          <div className="w3-display-bottomright w3-large w3-container w3-padding-14 w3-black">
+            <p>RS T R8 TN "Long Live Monroe" 0221 Red : Front </p>
           </div>
+          <section>
+            <br></br>
+            <p className="w3-center"><i className="fas fa-fill-drip"></i>Add To Drip <i className="fas fa-shopping-cart"></i></p>
+          </section>
         </div>
 
+        {/*This is the Second New Arrival*/}
         <div className="w3-display-container mySlides">
           <img src="https://icecube-us-842.icedrive.io/download?p=F2OCDfbqsmzCEJvAMqCFn9H.2LW31CEIxGCuItIBXa89jAxXy3fMNrv2ut2RxA8UHnZiiAGiA.9HKQtZS7Pu2zpK_CcOhtQScYQ7JzqqyaZsgA21dTzIaZOC_D9IgbuLC5fDF3daefBI.W5Cmy6WjSZX3HZoXDF44_5bvxNPcZiMfBmgDVMi0xiXrd40..Euo9SW8.C2PxZfSl.iY7w11Q--" style={{ width: 100 }} />
-          <div className="w3-display-bottomright w3-large w3-container w3-padding-12 w3-black">
-            <p>RS T R8 TN &#8482; <em>Long Live Monroe 0221 Red</em>  [Back View] </p>
+          <div className="w3-display-bottomright w3-large w3-container w3-padding-14 w3-black">
+            <p> RS T R8 TN "Long Live Monroe 0221" Red : Back </p>
           </div>
+          <section>
+            <br></br>
+            <p className="w3-center">Add To Swag <i className="fas fa-shopping-cart"></i></p>
+          </section>
+
         </div>
+
 
 
         <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
@@ -82,7 +80,9 @@ function showDivs(n) {
 
       </div>
 
-
+      <br></br><br></br><br></br>
+      <br></br><br></br><br></br>
+      <br></br><br></br><br></br>
 
 
       <Footer></Footer>
@@ -92,4 +92,4 @@ function showDivs(n) {
 
 }
 
-export default Freestyle
+export default Newarrivals

@@ -5,7 +5,7 @@ function Footer(){
         <div>
             
             <div className="w3-bottom">
-                <div className="w3-row w3-padding-small w3-black"> 
+                <div className="w3-row w3-padding-50 w3-center w3-black"> 
                 
                  <p>Copyright &copy; 2021 Restoration Clothing</p>
                

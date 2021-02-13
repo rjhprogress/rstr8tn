@@ -33,7 +33,7 @@ className="center" alt="Protesters for Peace Rallying for Change" />
         
 
         <div className="w3-col s3">
-        <Link to="/members" className="w3-bar-item w3-button w3-padding-large w3-hover-yellow"><p>Member Login</p></Link>
+        <a href="https://rstr8tn.com/join.html" className="w3-bar-item w3-button w3-padding-large w3-hover-yellow"><p>Member Login</p></a>
         </div>
         
         <div className="w3-col s3">
