@@ -1,0 +1,43 @@
+body,
+html,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  height: 100%;
+  font-family: 'Inconsolata', monospace;
+}
+
+a:link {
+  text-decoration: none;
+  }
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+q,
+.Navbar {
+  height: 100%;
+  font-family: 'Inconsolata', monospace;
+  font-family: 'Karla', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer, .Navbar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>RS T R8 TN</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="join.css">
+</head>
+
+<body>
+    <navbar>
+        <div class="w3-top">
+            <div class="w3-bar w3-card w3-black">
+
+                <div class="w3-col s3">
+                    <a href="../../Mission" class="w3-button w3-block w3-black w3-padding-small"><i
+                            class="fas fa-globe"></i>
+                        <p> Mission</p>
+                    </a>
+                </div>
+
+                <div class="w3-col s3">
+                    <a href="/releases" class="w3-button w3-block w3-black w3-padding-small"><i
+                            class="fas fa-puzzle-piece"></i>
+                        <p>New Pieces</p>
+                    </a>
+                </div>
+
+
+                <div class="w3-col s3">
+                    <a href="../../join" class="w3-button w3-block w3-black w3-padding-small"><i
+                            class="fas fa-users"></i>
+                        <p>Members</p>
+                    </a>
+                </div>
+
+                <div class="w3-col s3">
+                    <a data-scroll href="mailto:rjh@theprogresslab.com"
+                        class="w3-button w3-text-white w3-padding-small">
+                        <i class="fas fa-envelope-open-text"></i>
+                        <p> Email</p>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <navbar />
+        <br><br><br>
+
+        <!--  Members Join Container -->
+
+
+        <div class="w3-container" id="entryToYourJourney">
+            <div class="w3-content" style="max-width:700px">
+
+                <h5 class="w3-center w3-padding-48">Welcome To <em>Your</em> RS T R8 TN&#8482;</h5>
+
+
+                <div class="w3-row w3-center w3-card w3-padding">
+                    <a href="javascript:void(0)" onclick="openJourney(event, 'signup');" id="myLink">
+                        <div class="w3-col s6 tablink">Sign Up</div>
+                    </a>
+
+                    <a href="javascript:void(0)" onclick="openJourney(event, 'login');">
+                        <div class="w3-col s6 tablink">Log In</div>
+                    </a>
+                </div>
+
+                <div id="signup" class="w3-container w3-center entryToYourJourney w3-padding-48 w3-card">
+                    <h5><strong>It's not a brand its a Movement.</strong></h5>
+                    <p class="w3-text-grey">Username and password must be atleast 3 characters, and no more than 15.
+                    </p>
+                    <br>
+
+                    <form action='submission.html' method="GET">
+                        <label for="username">Username:</label>
+                        <br><input id="username" name="username" type="text" minlength="3" maxlength="15"
+                            required /><br>
+
+                        <label for="pw">Password:</label><br>
+                        <input id="pw" name="pw" type="password" minlength="8" maxlength="15" required></input><br><br>
+
+                        <input type="submit" value="Sign Up"></input>
+                    </form>
+                    <br>
+                    <p><strong><em>Revamp Restore!</em></strong></p>
+                </div>
+
+
+
+
+                <div id="login" class="w3-container w3-center entryToYourJourney w3-padding-48 w3-card">
+                    <i class="fas fa-users"></i>
+                    <p><strong>Members</strong></p>
+
+                    <form action='/submit' method="POST">
+                        <label for="username">Username:</label>
+                        <br><input id="username" name="username" type="text" minlength="3" maxlength="15"
+                            required /><br>
+
+                        <label for="pw">Password:</label><br>
+                        <input id="pw" name="pw" type="password" minlength="8" maxlength="15" required></input><br><br>
+
+                        <input type="submit" value="Login"></input>
+                    </form>
+                    <br>
+                    <p><strong><em>Revamp Restore!</em></strong></p>
+                </div>
+
+
+
+
+            </div>
+        </div>
+        <!-- Footer -->
+
+        <div class="footer">
+            <p>Copyright &copy; 2021 Restoration Clothing</p>
+        </div>
+
+
+        <script>
+            function openJourney(evt, signupAndLogin) {
+                var i, x, tablinks;
+                x = document.getElementsByClassName("entryToYourJourney");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablink");
+                for (i = 0; i < x.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+                }
+                document.getElementById(signupAndLogin).style.display = "block";
+                evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+            }
+            document.getElementById("myLink").click();
+        </script>
+
+
+</body>
+
+</html>
