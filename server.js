@@ -12,7 +12,7 @@ const { ESRCH } = require("constants")
 const path = require("path");
 const PORT = process.env.PORT || 3001
 const collections = ['releases']
-const db = mongojs(databaseUrl, collections)
+const db = mongojs(mongodb, collections)
 
 const app = express()
 
