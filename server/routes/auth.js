@@ -1,13 +1,9 @@
 const express = require('express')
 const router = express.Router()
 
-router.get('/signup', (req, res) => {
+//import controller
+const { signup } = require('../controllers/auth')
 
-    res.json({
-        data: 'The user has been saved in the database. Just tryna see my update'
-    })
+router.get('/signup', signup)
 
-})
-
-
-module.exports = router
+module.exports = router;
