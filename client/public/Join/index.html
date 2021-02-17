@@ -78,7 +78,7 @@
                     </p>
                     <br>
 
-                    <form action='submission.html' method="GET">
+                    <form id="signup_form">
                         <label for="username">Username:</label>
                         <br><input id="username" name="username" type="text" minlength="3" maxlength="15"
                             required /><br>
@@ -126,6 +126,13 @@
 
 
         <script>
+            document.getElementById("signup_form").addEventListener("submit", handlesubmit)
+            function handlesubmit(evt) {
+                evt.preventDefault();
+                const { username, pw } = evt.target;
+                console.log(username, pw)
+
+            }
             function openJourney(evt, signupAndLogin) {
                 var i, x, tablinks;
                 x = document.getElementsByClassName("entryToYourJourney");

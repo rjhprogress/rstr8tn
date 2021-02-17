@@ -53,11 +53,11 @@ app.post('/submit', ({ body }, res) => {
 });
 
 app.get('/read', (req, res) => {
-  db.books.find({ read: true }, (error, found) => {
+  db.favorites.find({ read: true }, (error, found) => {
     if (error)
   })
 }
-
+)
 // Serve up static assets (usually on heroku)
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
