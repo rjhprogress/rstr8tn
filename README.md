@@ -68,6 +68,53 @@ Client Folder
  {} manifest.json
  robots.txt
 ```
+Files contain the RS T R8 TN (pronounced Restoration) online gallery, which show cases streetwear and art in support of personal and social change. 
+
+Description: I wanted to develop a space online 
+where people could shop exclusive apparel that
+was more of a movement than a brand, for the purpose of inspiring
+personal tansformation, and social change. 
+
+The technologies used are: 
+```
+Cpanel: File hosting
+Google Docs: Slides, and mock-up notes
+Github: File hosting
+Express
+Ice Drive: Images
+MongoDB
+Mongoose
+Nodejs
+W3css: Lightweight css framework
+Zoom : Code conferencing 
+
+```
+Confiurations:
+```
+Home Page
+    Navbar Link Bottom
+        Link - Apparel Art Gallery
+        Link - Restore Your Truth Project
+        Link - Member Login
+        Link - Commit to Change
+
+Gallery Lobby
+    Navbar Links Top
+        Link - Mission
+        Link - New Pieces
+        Link - Members 
+        Link - Email
+
+Categories List
+    Black Lives Matter Collectoin 
+    1969 Stonewall Riots Collection
+    Freestyle Art Collection 
+
+Member Dashboard
+    Revamp Section : Where favorites are stored
+    Restore Section : Where people get empowered for personal and social change.
 
 
 
+
+    
