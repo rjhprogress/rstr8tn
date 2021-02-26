@@ -1,6 +1,3 @@
-https://rjhprogress.github.io/rstr8tn/
-
-
 Files and Directories [Currently being updated]
 RSTR8TN Main 
 ```
